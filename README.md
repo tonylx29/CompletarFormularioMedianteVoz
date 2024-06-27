@@ -13,7 +13,7 @@ Human Perception in Computer Vision
 **Integrantes:**
 - Luis Bermeo
 - Anthony Luzuriaga
-- Gerar Quizhpe
+- Gerardo Quizhpe
 - Alex Viñamagua
 
 El proyecto se trata de usar el modelo Vosk en su versión en español para generar fichas de descripción de afloramientos y descripción macroscópica de rocas. Para la generación de la interfaz gráfica, el documento menciona que se utiliza la tecnología Gradio. Gradio es una biblioteca de Python que permite crear interfaces de usuario simples y rápidas para modelos de aprendizaje automático y otras aplicaciones interactivas. Proporciona una forma sencilla de diseñar y desplegar interfaces interactivas sin necesidad de conocimientos avanzados de programación de interfaces de usuario. Puedes encontrar más información sobre Gradio en su [documentación oficial](https://www.gradio.app/docs/).
