@@ -1,4 +1,4 @@
-# Generación de fichas de descripción de afloramientos y descripción macroscópica de rocas por voz
+![image](https://github.com/tonylx29/CompletarFormularioMedianteVoz/assets/85810032/c2da20f2-309b-4cb3-ae48-07e31010885f)# Generación de fichas de descripción de afloramientos y descripción macroscópica de rocas por voz
 
 Esta guía proporciona instrucciones sobre cómo instalar Vosk, un kit de herramientas de reconocimiento de voz, junto con los requisitos necesarios para la instalación.
 
@@ -31,16 +31,28 @@ El propósito de instalar Vosk es habilitar capacidades de reconocimiento de voz
 </div>
 
 ## Pasos de Instalación
-1. **Instalar Vosk**: Sigue los pasos descritos en el documento para instalar Vosk en tu sistema.
-2. **Verificar la Instalación**: Después de la instalación, verifica que Vosk esté correctamente instalado ejecutando un script de prueba o comprobando el directorio de instalación.
-3. **Configuración Adicional**: Dependiendo de tu caso de uso específico, es posible que necesites configurar los ajustes o modelos de Vosk para un rendimiento óptimo.
+**Instalación del modelo Vosk**:
+1. Dirijirse al siguiente link: https://alphacephei.com/vosk/models
+2. Buscar el modelo en español, en este caso se tiene que buscar y descargar el modelo-vosk-es-0.42. Como se en la siguiente imagen.
+![image](https://github.com/tonylx29/CompletarFormularioMedianteVoz/assets/85810032/d4ad0a3a-12c5-4e39-90b3-02c715fae30d)
+
+3. **Verificar la Instalación**: Después de la descarga, se tiene que pegar el modelo dentro de la carpeta del proyecto, en una carpeta llamado model, asi:
+![image](https://github.com/tonylx29/CompletarFormularioMedianteVoz/assets/85810032/566d43bd-04b2-4e93-8c2b-63a46f28a79b)
+
+![image](https://github.com/tonylx29/CompletarFormularioMedianteVoz/assets/85810032/0ecbefb0-ddbb-4f72-beb0-ad810201ea90)
+
+
+4. **Configuración Adicional**: Descargue el proyecto de git.
+
+Nota adicional:
+Se tiene que descargar el modelo vosk de forma manual ya que por el peso hubo problemas al subirlo.
 
 ## Requisitos
 - Python
 - Pyaudio
 - Pygame
 - gTTS
-- Vosk
+- Vosk-es
 - json
 - wave
 - tempfile
