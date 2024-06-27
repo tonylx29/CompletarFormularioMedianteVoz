@@ -32,8 +32,8 @@ El propósito de instalar Vosk es habilitar capacidades de reconocimiento de voz
 
 ## Pasos para usar el proyecto.
 1. **Descarga del modelo Vosk-esp**:
-1. Dirijirse al siguiente link: https://alphacephei.com/vosk/models
-2. Buscar el modelo en español, en este caso se tiene que buscar y descargar el modelo-vosk-es-0.42. Como se en la siguiente imagen.
+    1.1. Dirijirse al siguiente link: https://alphacephei.com/vosk/models
+    1.2. Buscar el modelo en español, en este caso se tiene que buscar y descargar el modelo-vosk-es-0.42. Como se en la siguiente imagen.
 ![image](https://github.com/tonylx29/CompletarFormularioMedianteVoz/assets/85810032/d4ad0a3a-12c5-4e39-90b3-02c715fae30d)
 
 2. **Luego de la descarga**: Después de la descarga, se tiene que pegar el modelo dentro de la carpeta del proyecto, en una carpeta llamado model, asi:
